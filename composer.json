@@ -1,0 +1,22 @@
+{
+    "name": "pyncer/container",
+    "type": "library",
+    "description": "Pyncer implementation of PSR-7 and PSR-15.",
+    "homepage": "https://pyncer.com/container",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=8.1",
+        "psr/container": "^2.0.2",
+        "pyncer/core": "*",
+        "pyncer/exception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyncer\\Container\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pyncerrc/pyncer-container/issues",
+        "source": "https://github.com/pyncerrc/pyncer-container"
+    }
+}
