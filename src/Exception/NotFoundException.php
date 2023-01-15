@@ -4,6 +4,7 @@ namespace Pyncer\Container\Exception;
 use Psr\Container\NotFoundExceptionInterface as PsrNotFoundExceptionInterface;
 use Pyncer\Exception\Exception;
 use Pyncer\Exception\RuntimeException;
+use Throwable;
 
 class NotFoundException extends RuntimeException implements
     Exception,

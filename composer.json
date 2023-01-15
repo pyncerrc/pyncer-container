@@ -18,5 +18,8 @@
     "support": {
         "issues": "https://github.com/pyncerrc/pyncer-container/issues",
         "source": "https://github.com/pyncerrc/pyncer-container"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
     }
 }

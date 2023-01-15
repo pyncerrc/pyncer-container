@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.0.1 - 2023-01-14
+
+### Fixed
+
+- Fixed missing set function from container interface.
+
+### Added
+
+- PHPStan static analysis.
+
 ## 1.0.0 - 2022-12-27
 
 Initial release.
