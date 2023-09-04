@@ -2,6 +2,7 @@
 namespace Pyncer\Container;
 
 use Closure;
+use Pyncer\Container\ContainerInterface;
 use Pyncer\Container\Exception\NotFoundException;
 use Pyncer\Container\Exception\ContainerException;
 use Throwable;
