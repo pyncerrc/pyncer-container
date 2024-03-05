@@ -25,7 +25,10 @@ class Container implements ContainerInterface
             try {
                 $this->values[$id] = call_user_func($this->values[$id]);
             } catch (Throwable $e) {
-                throw new ContainerException('Error retrieving lazily generated value.');
+                throw new ContainerException(
+                    message: 'Error retrieving lazily generated value.',
+                    previous: $e,
+                );
             }
         }
 

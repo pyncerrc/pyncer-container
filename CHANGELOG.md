@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.2 - Unreleased
+
+### Added
+
+- Added exception chaining to ContainerException thrown in lazily generated values.
+
 ## 1.0.1 - 2023-01-14
 
 ### Fixed
